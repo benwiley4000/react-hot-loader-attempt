@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html class='default' dir='{dir}'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=Edge,chrome=1' />
+    <title>Hello World</title>
+    <meta name='robots' content='index, follow'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+{stylesheets}
+  </head>
+  <body>
+    <div id='app'>{container}</div>
+    <script>
+      window.__INITIAL_STATE__ = {__INITIAL_STATE__};
+      window.__DEVCLIENT__ = {__DEVCLIENT__};
+      window.__DEVSERVER__ = false;
+    </script>
+    <script type='text/javascript' src='{appscript}'></script>
+  </body>
+</html>
